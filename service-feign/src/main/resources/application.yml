@@ -10,4 +10,17 @@ spring:
   application:
     name: service-feign
 
-feign.hystrix.enabled: true
+feign:
+  hystrix:
+    enabled: true
+
+
+#允许显示所有信息，包括/actuator/health，/actuator/hystrix.stream
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      cors:
+        allowed-origins: "*"
+        allowed-methods: "*"
