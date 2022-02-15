@@ -1,0 +1,12 @@
+server:
+  port: 8762  #8762-8764
+
+spring:
+  application:
+    name: service-hi
+
+#注册地址 后面改为host域名
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
