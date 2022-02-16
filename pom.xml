@@ -16,7 +16,7 @@
     <module>service-hi</module>
     <module>service-feign</module>
     <!--整合所有hystrix dashboard -->
-    <module>hystrix-turbine</module>
+    <module>hystrix-turbine</module><module>gateway-server</module>
   </modules>
   <packaging>pom</packaging>
 

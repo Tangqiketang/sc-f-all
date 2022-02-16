@@ -28,8 +28,8 @@ import org.springframework.cloud.netflix.turbine.EnableTurbine;
 public class HystrixTurbineApplication {
 
     /**
-     * http://localhost:8764/turbine.stream
-     * http://localhost:8764/hystrix
+     * http://localhost:8765/turbine.stream
+     * http://localhost:8765/hystrix
      */
     public static void main(String[] args) {
         SpringApplication.run( HystrixTurbineApplication.class, args );
