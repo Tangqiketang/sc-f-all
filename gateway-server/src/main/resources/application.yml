@@ -18,7 +18,7 @@ spring:
             - Path=/demo/**
             - After=2017-01-20T17:42:47.789-07:00[America/Denver]
           filters:
-            - StripPrefix=1
+            - StripPrefix=1  #发送到下游之前,剥离url个数
             - RequestTime=true
 
 eureka:
