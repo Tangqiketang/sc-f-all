@@ -16,6 +16,7 @@ spring:
           uri: lb://SERVICE-HI
           predicates:
             - Path=/demo/**
+            - After=2017-01-20T17:42:47.789-07:00[America/Denver]
           filters:
             - StripPrefix=1
             - RequestTime=true
