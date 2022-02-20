@@ -15,7 +15,7 @@ spring:
         - id: service-hi
           uri: lb://SERVICE-HI
           predicates:
-            - Path=/demo/**
+            - Path=/servicehi/**
             - After=2017-01-20T17:42:47.789-07:00[America/Denver]
           filters:
             #发送到下游之前,原来路径截取前面几位 /demo/hi  ->发送到serviceHi  /hi

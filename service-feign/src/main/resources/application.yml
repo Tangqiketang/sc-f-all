@@ -12,7 +12,7 @@ spring:
 
 feign:
   hystrix:
-    enabled: true
+    enabled: true  #开启feign的断路器
 
 
 #允许显示所有信息，包括/actuator/health，/actuator/hystrix.stream
